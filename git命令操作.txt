@@ -1,0 +1,21 @@
+#设置用户信息
+git config --global user.name “itgaohe”
+git config --global user.email “hello@itgaohe.com”
+#在本地初始化git仓库
+git init
+#查看当前所有的本地仓库
+ll -a
+#进入某本地仓库
+cd .git
+#查看本地仓库的初始化配置信息
+ll
+#返回上一层目录
+cd ..
+#添加文件
+vim xxx.xxx
+#查看本地仓库状态
+git status
+#查看文件内容
+cat xxx.xxx
+#将文件的修改加入暂存区
+git add
